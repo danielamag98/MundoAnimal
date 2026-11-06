@@ -8,11 +8,11 @@ public class Vaca extends Animal implements Movible{
 
     @Override
     public void hacerSonido(){
-        System.out.println(" | Sonido: Muuuuuu ");
+        System.out.print(" | Sonido: Muuuuuu");
     }
 
     @Override
     public void moverse(){
-        System.out.println(" | Moverse: Camina lento");
+        System.out.print(" | Moverse: Camina lento");
     }
 }

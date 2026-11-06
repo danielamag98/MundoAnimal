@@ -8,11 +8,11 @@ public class Gato extends Animal implements Movible{
 
     @Override
     public void hacerSonido(){
-        System.out.println(" | Sonido: Miau miau ");
+        System.out.print(" | Sonido: Miau miau");
     }
 
     @Override
     public void moverse(){
-        System.out.println(" | Moverse: Camina sigilosamente");
+        System.out.print(" | Moverse: Camina sigilosamente");
     }
 }

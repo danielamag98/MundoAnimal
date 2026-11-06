@@ -8,6 +8,8 @@ public class Main {
                 new Perro("Hoschi", 7),
                 new Gato("Daicy", 1),
                 new Vaca("Lola", 11),
+                new Caballo("Spirit", 8),
+                new Caballo("Luna", 15),
         };
 
         //Ciclo forEach e invocar mostrarInformacion y hacerSonido
@@ -20,6 +22,7 @@ public class Main {
             if(animal instanceof Movible movible){
                 movible.moverse();
             }
+            System.out.println();
         }
     }
 }
