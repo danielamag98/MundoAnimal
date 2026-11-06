@@ -4,30 +4,28 @@ Aplicación en Java que aplica los principios de la POO (herencia, clases abstra
 
 ## 📁 Estructura
 
+## 📁 Estructura del Proyecto
+
+```text
 src/mx/com/animales/
-|
-├── Animal.java (Abstracta)
-|
-├── Movible.java (Interfaz)
-|
-├── Perro.java
-|
-├── Gato.java
-|
-├── Vaca.java
-|
-├── Caballo.java
-|
-└── Main.java
+├── Animal.java         # Clase abstracta base
+├── Movible.java        # Interfaz de comportamiento
+├── Perro.java          # Subclase
+├── Gato.java           # Subclase
+├── Vaca.java           # Subclase
+├── Caballo.java        # Subclase
+└── Main.java           # Clase principal (Punto de entrada)
+```
 
 
 ## 🚀 Ejecución
 
-Clonar: git clone https://github.com/danielamag98/MundoAnimal.git
+1.Clonar: git clone https://github.com/danielamag98/MundoAnimal.git
 
-Abrir en IntelliJ IDEA con JDK 17+.
+2.Abrir en IntelliJ IDEA con JDK 17+.
 
-Ejecutar Main.java.
+3.Ejecutar Main.java.
+
 
 
 ## 💻 Salida Esperada
@@ -43,6 +41,7 @@ Nombre: Lola | Edad: 11 | Sonido: Muuuuuu | Moverse: Camina lento
 Nombre: Spirit | Edad: 8 | Sonido: Brrrr | Moverse: Corre velozmente
 
 Nombre: Luna | Edad: 15 | Sonido: Brrrr | Moverse: Corre velozmente
+
 
 
 
